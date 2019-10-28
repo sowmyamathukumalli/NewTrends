@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.6.3.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="LD.css">
+    <title>New Trends</title>
+    <style>
+        body{
+            background-color: #d7d7d7;
+        }
+    </style>
+</head>
+<body>
+
+<!----------------------Navigation Bar---------------------------------------->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapse-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fas fa-bars"></i>
+    </button>
+    <a class="navbar-brand animated bounce slower" href="#"><i class="fas fa-car-side"></i>NewTrends</a>
+<div class="collapse navbar-collapse" id="collapse-nav">
+  <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Exclusive</a>
+      </li>
+      <li class="nav-item">
+          <a href="#" class="nav-link">City</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Trends</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Loans</a>
+      </li>
+      <li class="nav-item">
+          <a href="#" class="nav-link">Services</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Terms and Conditions</a>
+      </li>
+  </ul>
+</div>
+    <a href="Login.html" class="nav-item client-login"><i class="fas fa-user"></i> Client Login</a>
+</nav>
+
+<!-------------------------------Image and input Section-------------------------------->
+
+<div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="view zoom">
+            <img src="https://cimg1.ibsrv.net/ibimg/hgm/1920x1080-1/100/714/2020-porsche-taycan_100714961.jpg" class="img-fluid" alt="Responsive image">
+            <div class="mask waves-effect waves-light rgba-black-slight">
+                <div class="search-div bg-transparent p-5 rounded">
+                    <div class="text-center">
+                        <h3 class="text-white font-weight-bolder font-italic">Car Trending Platform.</h3>
+                    </div>
+                    <div class="input-group w-auto">
+                        <div class="input-group-prepend">
+                            <button class="btn name-btn btn-md m-0 px-3 py-2 z-depth-0 waves-effect text-white input-group-text" type="button" id="allcar-btn">All Car Brand's</button>
+                        </div>
+                        <input type="text"  placeholder=" Search by Brand name..." class="form-control" id="car-search">
+                        <div class="input-group-append">
+                            <span class="input-group-text">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--------------------------Result section---------------------------------------->
+
+<h5 class="m-4 text-dark result-para h5-responsive text-center">New Trends has Found <span id="found-count" class="text-danger count"></span> Cars for you.</h5>
+<div>
+<table>
+    <thead>
+    <tr>
+        <th>Brand Name</th>
+        <th>Model Name</th>
+        <th>Product Year</th>
+    </tr>
+    </thead>
+    <tbody id="table-body">
+
+    </tbody>
+</table>
+</div>
+
+<!--------------------------------Footer----------------------------->
+
+<footer class="page-footer font-small mt-5 text-white">
+    <div class="container-fluid bg-dark">
+        <div class="row py-4 d-flex align-items-center">
+            <div class="col-md-8 text-center text-md-left">
+                <h4 class="font-weight-bold">About New Trends</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi deserunt dolores eos molestiae nihil quas repellendus temporibus unde voluptas. Amet commodi dicta dolorem dolorum explicabo harum id impedit labore nihil non numquam perferendis porro, quibusdam sapiente sed temporibus totam voluptatem voluptates? Aspernatur error et inventore, libero officiis provident? Molestias!</p>
+            </div>
+            <div class="col-md-4  mx-auto">
+                <h4>Contact Us</h4>
+                <p>
+                    <i class="fas fa-home mr-3"></i> Hyderabad, India</p>
+                <p>
+                    <i class="fas fa-envelope mr-3"></i> newtrends2018@gmai.com</p>
+                <p>
+                    <i class="fas fa-phone mr-3"></i>9998887771</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+<script src="LD.js"></script>
+</body>
+</html>
